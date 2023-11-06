@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Epicentre Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-href','listing-access','listing-status','listing-updated','listing-author','listing-date','listing-image','listing-categories','listing-id',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-href","listing-access","listing-status","listing-updated","listing-author","listing-date","listing-image","listing-categories","listing-id"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Epicentre Data Science</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(16)</span></div><div class="category" data-category="cholera">cholera <span class="quarto-category-count">(4)</span></div><div class="category" data-category="covid19">covid19 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="diphtheria">diphtheria <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ebola">ebola <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gis">gis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hiv">hiv <span class="quarto-category-count">(1)</span></div><div class="category" data-category="measles">measles <span class="quarto-category-count">(2)</span></div><div class="category" data-category="nutrition">nutrition <span class="quarto-category-count">(1)</span></div><div class="category" data-category="study">study <span class="quarto-category-count">(1)</span></div><div class="category" data-category="surveillance">surveillance <span class="quarto-category-count">(11)</span></div><div class="category" data-category="tool">tool <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<div class="list grid quarto-listing-cols-3">
+  <div class="g-col-1" data-index="0" data-categories="hiv,study" data-listing-date-sort="2023-11-04">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://apps.epicentre-msf.org/secure/app/magy" target="_blank" class="listing-title link-secondary list-grid-title">
+          MAGY Study 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://apps.epicentre-msf.org/secure/app/magy" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/magy.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Study monitoring and quality control dashboard</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="1" data-categories="surveillance,diphtheria" data-listing-date-sort="2023-11-01">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://apps.epicentre-msf.org/secure/app/west-africa-diphtheria" target="_blank" class="listing-title link-secondary list-grid-title">
+          West Africa Diphtheria 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://apps.epicentre-msf.org/secure/app/west-africa-diphtheria" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/epicentre_logo.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Intersectional diphtheria linelist dashboard</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="2" data-categories="surveillance,measles" data-listing-date-sort="2023-11-02">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://apps.epicentre-msf.org/secure/app/east-africa-measles" target="_blank" class="listing-title link-secondary list-grid-title">
+          East Africa Measles 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://apps.epicentre-msf.org/secure/app/east-africa-measles" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/epicentre_logo.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Intersectional measles linelist dashboard</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="3" data-categories="cholera" data-listing-date-sort="2023-11-03">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://apps.epicentre-msf.org/public/app/gtfcc" target="_blank" class="listing-title link-secondary list-grid-title">
+          GTFCC OCV 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://apps.epicentre-msf.org/public/app/gtfcc" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/gtfcc.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description"></div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-public">public</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="4">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/msf-typo" target="_blank" class="listing-title link-secondary list-grid-title">
+          MSF Typology 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/msf-typo" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/msf-typo.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Dashboard to present the results of the typology of the entire MSF movement</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="5" data-categories="surveillance,cholera">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/hti-cholera" target="_blank" class="listing-title link-secondary list-grid-title">
+          Haïti Surveillance 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/hti-cholera" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/hti-cholera.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Tableau de bord de la surveillance du choléra et d'autres maladies en Haïti</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="6" data-categories="surveillance,cholera">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/rdc-cholera" target="_blank" class="listing-title link-secondary list-grid-title">
+          RDC Choléra 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/rdc-cholera" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/rdc-cholera.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Tableau de bord de la surveillance du choléra en RDC ; comprenant des visualisations, des tableaux et des rapports centralisés.</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">C. Eisenhauer</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="7" data-categories="surveillance,measles">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/rdc-rougeole" target="_blank" class="listing-title link-secondary list-grid-title">
+          RDC Rougeole 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/rdc-rougeole" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/rdc-rougeole.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Tableau de bord de la surveillance de la rougeole en RDC ; comprenant des visualisations, des tableaux et des rapports centralisés.</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">C. Eisenhauer</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="8" data-categories="gis,tool">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/outbreak-tools-geoapp" target="_blank" class="listing-title link-secondary list-grid-title">
+          Outbreak Tools GeoApp 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/outbreak-tools-geoapp" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/outbreak-tools-geoapp.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Select administrative boundaries to generate a geobase for an outbreak tools linelist.</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="9" data-categories="surveillance,cholera">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/ocv-impact" target="_blank" class="listing-title link-secondary list-grid-title">
+          OCV Impact 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/ocv-impact" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/ocv-impact.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Dashboard de surveillance clinique pour l'étude OCV Impact Wellcome</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="10" data-categories="nutrition">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/malnut" target="_blank" class="listing-title link-secondary list-grid-title">
+          Malnutrition Dashboard 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/malnut" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/malnut.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Visualisation of MSF malnutrition linelist data</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="11" data-categories="surveillance">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://dashboards.niger-surv.net/app/niger-alertes" target="_blank" class="listing-title link-secondary list-grid-title">
+          Alerte Niger 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://dashboards.niger-surv.net/app/niger-alertes" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/niger-alertes.jpg" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description"></div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="12" data-categories="surveillance">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/niger-surv" target="_blank" class="listing-title link-secondary list-grid-title">
+          Niger Surveillance 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/niger-surv" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/niger-surv.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Dashboard de la surveillance des maladies au Niger</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-active">active</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="13" data-categories="surveillance,covid19">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/covid19-linelist-dashboard" target="_blank" class="listing-title link-secondary list-grid-title">
+          MSF COVID-19 Dashboard 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/covid19-linelist-dashboard" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/covid19-linelist-dashboard.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Visualisation of COVID-19 linelist data collected on MSF missions</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-archived">archived</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="14" data-categories="surveillance,covid19">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/covid19-additional-analysis" target="_blank" class="listing-title link-secondary list-grid-title">
+          MSF COVID-19 Additional Analysis 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/covid19-additional-analysis" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/covid19-linelist-dashboard.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Supplementary graphics and tables</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-archived">archived</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="15" data-categories="surveillance,ebola">
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 card-left">
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="https://reports.msf.net/secure/app/evd-uga" target="_blank" class="listing-title link-secondary list-grid-title">
+          Ebola Uganda 2022 
+        </a> 
+      </div>
+        <a class="card-img-top" href="https://reports.msf.net/secure/app/evd-uga" target="_blank">
+          <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
+            <img src="assets/img/evd-uga.png" class="thumbnail-image card-img" style="height: auto;" alt="">
+          </div>
+        </a>
+        <div class="card-body post-contents">
+          <div class="card-subtitle listing-subtitle"></div>
+            <div class="card-text card-text-small text-muted listing-description">Dashboard tracking the 2022 ebola outbreak in Uganda</div>
+        </div>
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+              <div class="listing-author me-auto">Epi DS</div>
+              <div class="listing-status tag status-archived">archived</div>
+              <div class="listing-access tag status-internal">internal</div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
