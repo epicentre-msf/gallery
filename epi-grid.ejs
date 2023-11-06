@@ -15,13 +15,13 @@ const imgHeight = "100%";
 <% for (const item of items) { %>
   <div class="g-col-1" <%= metadataAttrs(item) %>>
     <div class="quarto-grid-item card border-2 rounded-3 h-100 <%-`card-${align}`%>">
-
+      <!-- title header -->
       <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
         <a href="<%= item.href %>" target="_blank" class="listing-title link-secondary list-grid-title">
           <%= item.title %> 
         </a> 
       </div>
-
+      <!-- card image -->
       <% if (item.image) { %>
         <a class="card-img-top" href="<%= item.href %>" target="_blank">
           <div style="width: 100%; min-height: 150px" class="d-flex align-items-center">
@@ -35,29 +35,31 @@ const imgHeight = "100%";
           </div>
         </a>
       <% } %> 
-
-      <% if ('title' || 'subtitle' || 'description' || 'author' || 'date' || otherFields.length > 0) { %>
-        <div class="card-body post-contents">
-          <% if ('subtitle') { %><div class="card-subtitle listing-subtitle"><%= item.subtitle %></div><% } %>
-
-          <% if ('description') { %>
-            <div class="card-text card-text-small text-muted listing-description"><%= item.description %></div>
-          <% } %>
-
+      <!-- category links -->
+      <% if(item.categories) { %>
+        <div class="listing-categories p-1">
+          <% for (const cat of item.categories) { %>
+            <div class="listing-category">
+              <a class="link-secondary list-grid-title" href="#category=<%= cat %>">
+                <%= cat %>
+              </a>
+            </div>
+            <% } %>
         </div>
       <% } %>
-
+      <!-- card body -->
+      <div class="card-body post-contents">
+        <% if (item.description) { %>
+          <div class="card-text card-text-small text-muted listing-description"><%= item.description %></div>
+        <% } %>
+      </div>
+      <!-- footer -->
       <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
-          <% 
-          const flexJustify = 'author' && 'status' ? "justify" : 'author' ? "start" : "end";
-          %>
-          <% if ('author' || 'status' || 'access') { %>
-            <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
-              <% if ('author') { %><div class="listing-author me-auto"><%= item.author %></div><% } %>
-              <% if ('status') { %><div class="listing-status tag status-<%= item.status %>"><%= item.status %></div><% } %>
-              <% if ('access') { %><div class="listing-access tag status-<%= item.access %>"><%= item.access %></div><% } %>
-            </div>
-          <% } %>
+        <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+          <% if ('author') { %><div class="listing-author me-auto"><%= item.author %></div><% } %>
+          <% if ('status') { %><div class="listing-status tag status-<%= item.status %>"><%= item.status %></div><% } %>
+          <% if ('access') { %><div class="listing-access tag status-<%= item.access %>"><%= item.access %></div><% } %>
+        </div>
       </div>
 
     </div>
