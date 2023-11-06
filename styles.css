@@ -1,0 +1,42 @@
+/* css styles */
+.list-grid-title:link {
+  text-decoration: none;
+}
+
+.list-grid-title:hover {
+  text-decoration: underline;
+}
+
+.list-grid-title:active {
+  text-decoration: underline;
+}
+
+.list-grid-title:visited {
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 15px;
+}
+
+.status-active, .status-public {
+  background: hsl(116, 60%, 75%);
+  color: hsl(116, 30%, 25%);
+}
+
+.status-archived {
+  background: hsl(39, 70%, 90%);
+  color: hsl(39, 45%, 30%);
+}
+
+.status-red {
+  background: hsl(350, 70%, 90%);
+  color: hsl(350, 45%, 30%);
+}
+
+.status-internal {
+  background: hsl(230, 70%, 90%);
+  color: hsl(230, 45%, 30%);
+}

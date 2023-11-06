@@ -1,0 +1,169 @@
+- title: MAGY Study
+  description: Study monitoring and quality control dashboard
+  href: https://apps.epicentre-msf.org/secure/app/magy
+  access: internal
+  status: active
+  updated: daily
+  author: Epi DS
+  date: "2023-11-04"
+  image: assets/img/magy.png
+  categories:
+    - hiv
+    - study
+- title: West Africa Diphtheria
+  description: Intersectional diphtheria linelist dashboard
+  href: https://apps.epicentre-msf.org/secure/app/west-africa-diphtheria
+  access: internal
+  status: active
+  author: Epi DS
+  date: "2023-11-01"
+  image: assets/img/epicentre_logo.png
+  categories:
+    - surveillance
+    - diphtheria
+- title: East Africa Measles
+  description: Intersectional measles linelist dashboard
+  href: https://apps.epicentre-msf.org/secure/app/east-africa-measles
+  access: internal
+  status: active
+  author: Epi DS
+  date: "2023-11-02"
+  image: assets/img/epicentre_logo.png
+  categories:
+    - surveillance
+    - measles
+- title: GTFCC OCV
+  href: https://apps.epicentre-msf.org/public/app/gtfcc
+  access: public
+  status: active
+  updated: monthly
+  author: Epi DS
+  date: "2023-11-03"
+  image: assets/img/gtfcc.png
+  categories:
+    - cholera
+- id: msf-typo
+  title: MSF Typology
+  description: Dashboard to present the results of the typology of the entire MSF movement
+  href: https://reports.msf.net/secure/app/msf-typo
+  access: internal
+  status: active
+  updated: yearly
+  author: Epi DS
+  image: assets/img/msf-typo.png
+- id: hti-cholera
+  title: Haïti Surveillance
+  description: Tableau de bord de la surveillance du choléra et d'autres maladies en Haïti
+  href: https://reports.msf.net/secure/app/hti-cholera
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/hti-cholera.png
+  categories:
+  - surveillance
+  - cholera
+- id: rdc-cholera
+  title: RDC Choléra
+  description: Tableau de bord de la surveillance du choléra en RDC ; comprenant des visualisations, des tableaux et des rapports centralisés.
+  href: https://reports.msf.net/secure/app/rdc-cholera
+  access: internal
+  status: active
+  author: C. Eisenhauer
+  image: assets/img/rdc-cholera.png
+  categories:
+    - surveillance
+    - cholera
+- id: rdc-rougeole
+  title: RDC Rougeole
+  description: Tableau de bord de la surveillance de la rougeole en RDC ; comprenant des visualisations, des tableaux et des rapports centralisés.
+  href: https://reports.msf.net/secure/app/rdc-rougeole
+  access: internal
+  status: active
+  author: C. Eisenhauer
+  image: assets/img/rdc-rougeole.png
+  categories:
+    - surveillance
+    - measles
+- id: outbreak-tools-geoapp
+  title: Outbreak Tools GeoApp
+  description: Select administrative boundaries to generate a geobase for an outbreak tools linelist.
+  href: https://reports.msf.net/secure/app/outbreak-tools-geoapp
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/outbreak-tools-geoapp.png
+  categories:
+    - gis
+    - tool
+- id: ocv-impact
+  title: OCV Impact
+  description: Dashboard de surveillance clinique pour l'étude OCV Impact Wellcome
+  href: https://reports.msf.net/secure/app/ocv-impact
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/ocv-impact.png
+  categories:
+    - surveillance
+    - cholera
+- id: malnut
+  title: Malnutrition Dashboard
+  description: Visualisation of MSF malnutrition linelist data
+  href: https://reports.msf.net/secure/app/malnut
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/malnut.png
+  categories:
+    - nutrition
+- title: Alerte Niger
+  href: https://dashboards.niger-surv.net/app/niger-alertes
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/niger-alertes.jpg
+  categories:
+    - surveillance
+- id: niger-surv
+  title: Niger Surveillance
+  description: Dashboard de la surveillance des maladies au Niger
+  href: https://reports.msf.net/secure/app/niger-surv
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/niger-surv.png
+  categories:
+    - surveillance
+- id: covid19-linelist-dashboard
+  title: MSF COVID-19 Dashboard
+  description: Visualisation of COVID-19 linelist data collected on MSF missions
+  href: https://reports.msf.net/secure/app/covid19-linelist-dashboard
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/covid19-linelist-dashboard.png
+  categories:
+    - surveillance
+    - covid19
+- id: covid19-additional-analysis
+  title: MSF COVID-19 Additional Analysis
+  description: Supplementary graphics and tables
+  href: https://reports.msf.net/secure/app/covid19-additional-analysis
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/covid19-linelist-dashboard.png
+  categories:
+    - surveillance
+    - covid19
+- id: evd-uga
+  title: Ebola Uganda 2022
+  description: Dashboard tracking the 2022 ebola outbreak in Uganda
+  href: https://reports.msf.net/secure/app/evd-uga
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/evd-uga.png
+  categories:
+    - surveillance
+    - ebola

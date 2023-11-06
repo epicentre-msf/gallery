@@ -1,0 +1,13 @@
+---  
+format: 
+  html:
+    page-layout: full
+listing:
+  template: epi-grid.ejs
+  contents: items.yml
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  field-required: [title, href, status, access, author]
+---
+
