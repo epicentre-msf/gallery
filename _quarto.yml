@@ -3,12 +3,13 @@ project:
 
 website:
   title: "Epicentre Data Science"
+  search: false
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      
+
 execute:
   freeze: auto
 
