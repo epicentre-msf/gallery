@@ -134,6 +134,57 @@
   image: assets/img/niger-surv.png
   categories:
     - surveillance
+- title: IAVI X100 LF
+  description: Project reporting dashboard monitoring enrolment, follow-up and lab data in near real-time
+  href: https://enable.epicentre-msf.org/app/iavi-lf-reporting
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/x100.png
+  categories:
+    - study
+    - lassa
+- title: ENABLE Reporting Dahsboard
+  description: Project reporting dashboard monitoring enrolment, follow-up and lab data in near real-time
+  href: https://enable.epicentre-msf.org/app/lasv-report-dashboard
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/enable.png
+  categories:
+    - study
+    - lassa
+- title: ENABLE Quality Control
+  description: Quality control dashboard for query management and follow-up scheduling
+  href: https://enable.epicentre-msf.org/app/lasv-qc-dashboard
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/enable.png
+  categories:
+    - study
+    - lassa
+- title: ENABLE Interim Analysis
+  description: Report summarising the interim analysis for the Enable Lassa study
+  href: https://enable.epicentre-msf.org/app/lasv-interim-analysis
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/enable.png
+  categories:
+    - study
+    - lassa
+- title: ENABLE ELISA Analysis
+  description: Tool to measure IgG concentration in blood serum using an indirect ELISA
+  href: https://enable.epicentre-msf.org/app/lasv-elisa-app
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/enable.png
+  categories:
+    - study
+    - lassa
+    - tool
 - id: covid19-linelist-dashboard
   title: MSF COVID-19 Dashboard
   description: Visualisation of COVID-19 linelist data collected on MSF missions
