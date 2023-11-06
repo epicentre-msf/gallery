@@ -2,7 +2,7 @@
 
 ## Adding an item to the gallery
 
-New items can be added to the `items.yml` file after which they will automatically appear on the website gallery when it is next generated.
+New items can be added to the `items.yml`[items.yml] file after which they will automatically appear on the website gallery when it is next generated.
 
 Below is an example of an item entry:
 
@@ -26,7 +26,7 @@ The following fields **must** be filled for each new item:
 
 - `title` the name of the item that will appear as a header link in the card
 - `href` the URL of the content you want to share
-- `access` must either `public`or `internal` (all lowercase) depending on whether 
+- `access` must be either `public`or `internal` (all lowercase) depending on whether 
   the content is open to everyone or internal to MSF or a specific project
 - `status` must be either `active` or `archived` (all lowercase). Assuming all new 
   entries will be `active`, but you should update this field to `archived` 
@@ -46,3 +46,8 @@ The following fields are optional but recommended:
   Ensure you do not duplicate an existing category with a different spelling etc. Look at the existing
   categories on the gallery page to verify.
 
+## Publishing
+
+Once you have added a new item to `items.yml` (and an image to `assets/img/` ideally), you just have to commit these changes to the main branch on github and the site will be automatically re-generated using a github action and published at https://epicentre-msf.github.io/gallery/
+
+Github pages does use caching so you may need to hard refresh your browser to see the changes on the site.
