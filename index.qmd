@@ -1,13 +1,29 @@
 ---  
-format: 
-  html:
-    page-layout: full
+page-layout: full
+toc: false
 listing:
+  id: gallery
   template: epi-grid.ejs
   contents: items.yml
   categories: true
-  sort-ui: false
+  page-size: 1000
+  sort: 
+    - "status" 
+    - "date-created desc"
+  sort-ui: [title, date-created, date-modified]
   filter-ui: true
-  field-required: [title, href, status, access, author]
+  field-required: [title, href, status, access, author, date-created]
+  field-types:
+    date-created: date
+    date-modified: date
+  field-display-names:
+    status: "Status"
+    access: "Access"
+    date-created: "Published"
+    date-modified: "Updated"
 ---
 
+## Data Visualisation
+
+::: {#gallery}
+:::

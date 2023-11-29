@@ -1,97 +1,136 @@
 - title: MAGY Study
   description: Study monitoring and quality control dashboard
   href: https://apps.epicentre-msf.org/secure/app/magy
+  repo: https://github.com/epicentre-msf/magy-app
   access: internal
   status: active
   updated: daily
   author: Epi DS
-  date: "2023-11-04"
+  date-created: '2023-10-01'
+  date-modified: '2023-11-29'
   image: assets/img/magy.png
   categories:
     - hiv
     - study
+    - uganda
+    - zambia
+    - south africa
 - title: West Africa Diphtheria
   description: Intersectional diphtheria linelist dashboard
   href: https://apps.epicentre-msf.org/secure/app/west-africa-diphtheria
+  repo: https://github.com/epicentre-msf/west-africa-diptheria-app
   access: internal
   status: active
   author: Epi DS
-  date: "2023-11-01"
+  date-created: '2023-10-29'
+  date-modified: '2023-11-17'
   image: assets/img/epicentre_logo.png
   categories:
     - surveillance
     - diphtheria
+    - nigeria
+    - niger
 - title: East Africa Measles
   description: Intersectional measles linelist dashboard
   href: https://apps.epicentre-msf.org/secure/app/east-africa-measles
+  repo: https://github.com/epicentre-msf/east-africa-measles-vis
   access: internal
   status: active
   author: Epi DS
-  date: "2023-11-02"
+  date-created: '2023-07-16'
+  date-modified: '2023-10-18'
   image: assets/img/epicentre_logo.png
   categories:
     - surveillance
     - measles
+    - sudan
+    - south sudan
 - title: GTFCC OCV
+  description: Dashboard tracking Oral Cholera Vaccine requests and shipments
+    for the Global Task Force on Cholera Control
   href: https://apps.epicentre-msf.org/public/app/gtfcc
+  repo: https://github.com/epicentre-msf/gtfcc-ocv-app
   access: public
   status: active
   updated: monthly
   author: Epi DS
-  date: "2023-11-03"
+  date-created: '2022-03-13'
+  date-modified: '2023-11-20'
   image: assets/img/gtfcc.png
-  categories:
+  categories: 
     - cholera
 - id: msf-typo
   title: MSF Typology
-  description: Dashboard to present the results of the typology of the entire MSF movement
+  description: Dashboard presenting the typology of the entire MSF movement
   href: https://reports.msf.net/secure/app/msf-typo
+  repo: https://github.com/epicentre-msf/msf-typo
   access: internal
   status: active
   updated: yearly
   author: Epi DS
   image: assets/img/msf-typo.png
+  date-created: '2023-06-01'
+  date-modified: '2023-06-01'
+  categories: 
+    - typology
 - id: hti-cholera
   title: Haïti Surveillance
-  description: Tableau de bord de la surveillance du choléra et d'autres maladies en Haïti
+  description: Tableau de bord de la surveillance du choléra et d'autres maladies
+    en Haïti
   href: https://reports.msf.net/secure/app/hti-cholera
+  repo: https://github.com/epicentre-msf/hti-cholera-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/hti-cholera.png
+  date-created: '2022-10-09'
+  date-modified: '2023-06-12'
   categories:
-  - surveillance
-  - cholera
+    - surveillance
+    - cholera
 - id: rdc-cholera
   title: RDC Choléra
-  description: Tableau de bord de la surveillance du choléra en RDC ; comprenant des visualisations, des tableaux et des rapports centralisés.
+  description: Tableau de bord de la surveillance du choléra en RDC ; comprenant des
+    visualisations, des tableaux et des rapports centralisés.
   href: https://reports.msf.net/secure/app/rdc-cholera
+  repo: https://github.com/ceisenhauer/dashboard_drc_cholera
   access: internal
   status: active
   author: C. Eisenhauer
   image: assets/img/rdc-cholera.png
+  date-created: '2022-10-09'
+  date-modified: '2023-06-01'
   categories:
     - surveillance
     - cholera
+    - drc
 - id: rdc-rougeole
   title: RDC Rougeole
-  description: Tableau de bord de la surveillance de la rougeole en RDC ; comprenant des visualisations, des tableaux et des rapports centralisés.
+  description: Tableau de bord de la surveillance de la rougeole en RDC ; comprenant
+    des visualisations, des tableaux et des rapports centralisés.
   href: https://reports.msf.net/secure/app/rdc-rougeole
   access: internal
   status: active
   author: C. Eisenhauer
   image: assets/img/rdc-rougeole.png
+  date-created: '2022-10-09'
+  date-modified: '2023-06-01'
   categories:
     - surveillance
     - measles
+    - drc
 - id: outbreak-tools-geoapp
   title: Outbreak Tools GeoApp
-  description: Select administrative boundaries to generate a geobase for an outbreak tools linelist.
+  description: Select administrative boundaries to generate a geobase for an outbreak
+    tools linelist.
   href: https://reports.msf.net/secure/app/outbreak-tools-geoapp
+  repo: https://github.com/epicentre-msf/outbreak-tools-geoapp
   access: internal
   status: active
   author: Epi DS
   image: assets/img/outbreak-tools-geoapp.png
+  date-created: '2022-05-08'
+  date-modified: '2023-11-27'
   categories:
     - gis
     - tool
@@ -99,100 +138,149 @@
   title: OCV Impact
   description: Dashboard de surveillance clinique pour l'étude OCV Impact Wellcome
   href: https://reports.msf.net/secure/app/ocv-impact
+  repo: https://github.com/epicentre-msf/ocv-impact-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/ocv-impact.png
+  date-created: '2022-03-06'
+  date-modified: '2023-04-20'
   categories:
     - surveillance
     - cholera
 - id: malnut
-  title: Malnutrition Dashboard
-  description: Visualisation of MSF malnutrition linelist data
+  title: Nutrition - Nigeria (Katsina)
+  description: Dashboard visualising OCP malnutrition linelist data
   href: https://reports.msf.net/secure/app/malnut
+  repo: https://github.com/epicentre-msf/malnut-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/malnut.png
-  categories:
+  date-created: '2022-01-16'
+  date-modified: '2023-11-15'
+  categories: 
     - nutrition
+    - nigeria
 - title: Alerte Niger
   href: https://dashboards.niger-surv.net/app/niger-alertes
+  repo: https://github.com/epicentre-msf/niger-alertes
   access: internal
   status: active
   author: Epi DS
   image: assets/img/niger-alertes.jpg
-  categories:
+  date-created: '2021-10-31'
+  date-modified: '2023-10-24'
+  categories: 
     - surveillance
+    - niger
 - id: niger-surv
   title: Niger Surveillance
   description: Dashboard de la surveillance des maladies au Niger
   href: https://reports.msf.net/secure/app/niger-surv
+  repo: https://github.com/epicentre-msf/niger-surv-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/niger-surv.png
-  categories:
+  date-created: '2021-01-10'
+  date-modified: '2023-10-09'
+  categories: 
     - surveillance
+    - niger
 - title: IAVI X100 LF
-  description: Project reporting dashboard monitoring enrolment, follow-up and lab data in near real-time
+  description: Project reporting dashboard monitoring enrolment, follow-up and lab
+    data in near real-time
   href: https://enable.epicentre-msf.org/app/iavi-lf-reporting
+  repo: https://github.com/epicentre-msf/iavi-lf-reporting
   access: internal
   status: active
   author: Epi DS
   image: assets/img/x100.png
+  date-created: '2022-11-27'
+  date-modified: '2023-06-13'
   categories:
     - study
     - lassa
 - title: ENABLE Reporting Dahsboard
-  description: Project reporting dashboard monitoring enrolment, follow-up and lab data in near real-time
+  description: Project reporting dashboard monitoring enrolment, follow-up and lab
+    data in near real-time
   href: https://enable.epicentre-msf.org/app/lasv-report-dashboard
+  repo: https://github.com/epicentre-msf/lasv-report-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/enable.png
+  date-created: '2020-11-2'
+  date-modified: '2023-11-23'
   categories:
     - study
     - lassa
 - title: ENABLE Quality Control
   description: Quality control dashboard for query management and follow-up scheduling
   href: https://enable.epicentre-msf.org/app/lasv-qc-dashboard
+  repo: https://github.com/epicentre-msf/lasv-query-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/enable.png
+  date-created: '2020-08-02'
+  date-modified: '2022-11-01'
   categories:
     - study
     - lassa
 - title: ENABLE Interim Analysis
   description: Report summarising the interim analysis for the Enable Lassa study
   href: https://enable.epicentre-msf.org/app/lasv-interim-analysis
+  repo: https://github.com/epicentre-msf/enable-final-analysis
   access: internal
   status: active
   author: Epi DS
   image: assets/img/enable.png
+  date-created: '2022-06-26'
+  date-modified: '2023-11-15'
   categories:
     - study
     - lassa
 - title: ENABLE ELISA Analysis
-  description: Tool to measure IgG concentration in blood serum using an indirect ELISA
+  description: Tool to measure IgG concentration in blood serum using an indirect
+    ELISA
   href: https://enable.epicentre-msf.org/app/lasv-elisa-app
+  repo: https://github.com/epicentre-msf/lasv-elisa-app
   access: internal
   status: active
   author: Epi DS
   image: assets/img/enable.png
+  date-created: '2022-01-30'
+  date-modified: '2023-07-01'
   categories:
     - study
     - lassa
     - tool
+- title: COVID-19 Epi Dashboard
+  description: Dashboard to monitor the global spread of the COVID-19 pandemic 
+  href: https://reports.msf.net/public/covid19/
+  repo: https://github.com/epicentre-msf/covid19
+  access: public
+  status: active
+  author: Epi DS
+  image: assets/img/covid19.png
+  date-created: '2020-03-15'
+  date-modified: '2023-04-01'
+  categories:
+    - surveillance
+    - covid19
 - id: covid19-linelist-dashboard
   title: MSF COVID-19 Dashboard
   description: Visualisation of COVID-19 linelist data collected on MSF missions
   href: https://reports.msf.net/secure/app/covid19-linelist-dashboard
+  repo: https://github.com/epicentre-msf/covid-linelist-dashboard
   access: internal
   status: archived
   author: Epi DS
   image: assets/img/covid19-linelist-dashboard.png
+  date-created: '2020-04-19'
+  date-modified: '2021-10-01'
   categories:
     - surveillance
     - covid19
@@ -200,21 +288,191 @@
   title: MSF COVID-19 Additional Analysis
   description: Supplementary graphics and tables
   href: https://reports.msf.net/secure/app/covid19-additional-analysis
+  repo: https://github.com/epicentre-msf/covid19-episitrep-overall
   access: internal
   status: archived
   author: Epi DS
   image: assets/img/covid19-linelist-dashboard.png
+  date-created: '2020-06-07'
+  date-modified: '2022-04-01'
   categories:
     - surveillance
+    - covid19
+- id: covid19-modelling-tool
+  title: COVID-19 Modelling Tool
+  description: Estimate the demand for hospitalization and operational resources for COVID patients in locations of your choice
+  href: https://reports.msf.net/secure/app/covid19-modelling-tool
+  repo: https://github.com/epicentre-msf/covid-modelling-tool
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/covid19-modelling-tool.png
+  date-created: '2020-05-03'
+  date-modified: '2020-05-03'
+  categories:
+    - tool
+    - modelling
+    - covid19
+- id: alertes-covid19-niger
+  title: Alertes COVID-19 Niger
+  description: Dashboard to visualise COVID-19 alert reports received by the Medic Mobile application.
+  href: https://reports.msf.net/secure/app/alertes-covid19-niger
+  repo: https://github.com/epicentre-msf/niger-medic-mobile
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/alertes-covid19-niger.png
+  date-created: '2020-04-26'
+  date-modified: '2020-04-26'
+  categories:
+    - surveillance
+    - niger
     - covid19
 - id: evd-uga
   title: Ebola Uganda 2022
   description: Dashboard tracking the 2022 ebola outbreak in Uganda
   href: https://reports.msf.net/secure/app/evd-uga
+  repo: https://github.com/epicentre-msf/EVD-UGA-2022-Dashboard
   access: internal
   status: archived
   author: Epi DS
   image: assets/img/evd-uga.png
+  date-created: '2022-11-22'
+  date-modified: '2022-11-22'
   categories:
     - surveillance
     - ebola
+    - uganda
+- title: Ebola DRC 13ème épidémie
+  description: Dashboard displaying ETC linelist compilation data
+  href: https://reports.msf.net/secure/app/evd-cod13
+  repo: https://github.com/epicentre-msf/evd-cod13-dashboard
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/evd-cod13.png
+  date-created: '2021-11-28'
+  date-modified: '2021-11-28'
+  categories:
+    - surveillance
+    - ebola
+    - drc
+- id: evd-cod12
+  title: Ebola DRC 12ème épidémie
+  description: Dashboard displaying ETC linelist compilation data.
+  href: https://reports.msf.net/secure/app/evd-cod12
+  repo: https://github.com/epicentre-msf/evd.cod12.dashboard
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/evd-cod12.png
+  date-created: '2021-04-18'
+  date-modified: '2021-04-18'
+  categories:
+    - surveillance
+    - ebola
+    - drc
+- id: ebola-equateur-dashboard
+  title: Ebola Equateur DRC
+  description: Dashboard to visualise linelist data of the ebola outbreak in Equatuer, DRC
+  href: https://reports.msf.net/secure/app/ebola-equateur-dashboard
+  repo: https://github.com/epicentre-msf/ebola-equateur-dashboard
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/ebola-equateur-dashboard.png
+  date-created: '2020-07-26'
+  date-modified: '2020-07-26'
+  categories:
+    - surveillance
+    - ebola
+    - drc
+- id: hr-dashboard
+  title: HR Dashboard
+  description: Monitor Epicentre Staff Activity & Projects
+  href: https://reports.msf.net/secure/app/hr-dashboard
+  repo: https://github.com/epicentre-msf/hr-dashboard
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/epicentre_logo.png
+  date-created: '2020-12-13'
+  date-modified: '2023-10-01'
+  categories:
+    - hr
+- id: drc-eb-001-en
+  title: DRC-EB-001 (Tujiokowe) Daily Situation Report (EN)
+  description: Daily data from the J&J vaccine trial in Kivu, DRC
+  href: https://reports.msf.net/secure/app/drc-eb-001-en
+  repo: https://github.com/epicentre-msf/tujiokowe
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/drc-eb-001.png
+  date-created: '2019-12-01'
+  date-modified: '2019-12-01'
+  categories:
+    - trial
+    - ebola
+    - drc
+- id: drc-eb-001-fr
+  title: DRC-EB-001 (Tujiokowe) Rapport de Situation Quotidien (FR)
+  description: Daily data from the J&J vaccine trial in Kivu, DRC
+  href: https://reports.msf.net/secure/app/drc-eb-001-fr
+  repo: https://github.com/epicentre-msf/tujiokowe
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/drc-eb-001.png
+  date-created: '2019-12-01'
+  date-modified: '2019-12-01'
+  categories:
+    - trial
+    - ebola
+    - drc
+- id: drc-eb-001-queries
+  title: DRC-EB-001 (Tujiokowe) Query Dashboard
+  description: Monitor status of data queries
+  href: https://reports.msf.net/secure/app/drc-eb-001-queries
+  repo: https://github.com/epicentre-msf/tujiokowe
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/drc-eb-001.png
+  date-created: '2019-12-01'
+  date-modified: '2019-12-01'
+  categories:
+    - trial
+    - ebola
+    - drc
+- id: drc-eb-001-fu
+  title: DRC-EB-001 (Tujiokowe) Follow-up Dashboard
+  description: Monitor status of subset follow-ups
+  href: https://reports.msf.net/secure/app/drc-eb-001-fu
+  repo: https://github.com/epicentre-msf/tujiokowe
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/drc-eb-001.png
+  date-created: '2019-12-01'
+  date-modified: '2019-12-01'
+  categories:
+    - trial
+    - ebola
+    - drc
+- id: jj-zebovac-uganda
+  title: J&J Zebovac Uganda Dashboard
+  description: Monitor progress of the immunogenicity and safety trial of the J&J Vebovaccine in Mbarara, Uganda.
+  href: https://reports.msf.net/secure/app/jj-zebovac-uganda
+  repo: https://github.com/epicentre-msf/zebovac-uganda
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/jj-zebovac-uganda.png
+  date-created: '2019-09-01'
+  date-modified: '2019-09-01'
+  categories:
+    - study
+    - trial
+    - ebola
+    - uganda
