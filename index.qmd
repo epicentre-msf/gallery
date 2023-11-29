@@ -27,7 +27,7 @@ listing:
 
 From outbreaks to clinical trials, Epicentre's data science team (Epi DS) leverages its expertise in epidemiology, statistical analysis, programming and data visualisation to drive actionable insight from public health data.
 
-Below is our collection of our interactive dashboards and reports. Use the search bar and categories to filter to your areas of interest.
+Below is our collection of our interactive dashboards and reports. Use the search bar and categories menu to filter to your areas of interest.
 
 Items labelled as [INTERNAL]{.tag .status-internal} will require a login. If you are a member of the MSF network and have an msf.org email address you can [create an account to access our dashboards on our sign-up page](https://reports.msf.net/signup/){target="_blank"}. Note that some dashboards are limited to specific OCs, individual personel or project partners, so not all content will be accessible with your account.
 
