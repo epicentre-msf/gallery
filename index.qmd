@@ -9,10 +9,10 @@ listing:
   page-size: 1000
   sort: 
     - "status" 
-    - "date-created desc"
+    - "date-modified desc"
   sort-ui: [title, date-created, date-modified]
   filter-ui: true
-  field-required: [title, href, status, access, author, date-created]
+  field-required: [title, href, status, access, author, date-created, date-modified]
   field-types:
     date-created: date
     date-modified: date

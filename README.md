@@ -37,7 +37,10 @@ The following fields **must** be filled for each new item:
   when the report or dashboard stops being updated with new data
 - `author` the name of the group/team/person who is responsible for the content
 - `date-created` the date the content was first pubished in format 'YYYY-MM-DD'.
-  By default, the gallery is sorted by status (active before archived) and then this date.
+- `date-modified` the date the content was last modified/updated in format 'YYYY-MM-DD'. 
+  By default, the gallery is sorted by status (active before archived) and then this date. 
+  You can move your item to the top of the list by updating its modified date to the most
+  recent.
 
 #### Optional fields
 
@@ -50,8 +53,6 @@ The following fields are optional but recommended:
 - `categories` relevant categories that apply to the content like name of the disease for example.
   Ensure you do not duplicate an existing category with a different spelling etc. Look at the existing
   categories on the gallery page to verify.
-- `date-modified` the date the content was last modified/updated in format 'YYYY-MM-DD'. 
-  The gallery can be sorted by this date via the 'Order by' dropdown.
 - `repo` a URL linking to the code repository of the project. This is not currently used but may be useful
   in the future.
 
