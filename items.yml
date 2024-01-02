@@ -23,7 +23,7 @@
   status: active
   author: Epi DS
   date-created: '2023-10-29'
-  date-modified: '2023-11-17'
+  date-modified: '2024-01-01'
   image: assets/img/epicentre_logo.png
   categories:
     - surveillance
@@ -38,7 +38,7 @@
   status: active
   author: Epi DS
   date-created: '2023-07-16'
-  date-modified: '2023-10-18'
+  date-modified: '2024-01-01'
   image: assets/img/epicentre_logo.png
   categories:
     - surveillance
@@ -184,7 +184,7 @@
   author: Epi DS
   image: assets/img/niger-surv.png
   date-created: '2021-01-10'
-  date-modified: '2023-12-01'
+  date-modified: '2024-01-01'
   categories: 
     - surveillance
     - niger
