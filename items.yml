@@ -57,7 +57,7 @@
   date-created: '2022-03-13'
   date-modified: '2023-11-20'
   image: assets/img/gtfcc.png
-  categories: 
+  categories:
     - cholera
 - id: msf-typo
   title: MSF Typology
@@ -71,7 +71,7 @@
   image: assets/img/msf-typo.png
   date-created: '2023-06-01'
   date-modified: '2023-06-01'
-  categories: 
+  categories:
     - typology
 - id: hti-cholera
   title: Haïti Surveillance
@@ -159,7 +159,7 @@
   image: assets/img/malnut.png
   date-created: '2022-01-16'
   date-modified: '2023-11-15'
-  categories: 
+  categories:
     - nutrition
     - nigeria
 - title: Alerte Niger
@@ -171,7 +171,7 @@
   image: assets/img/niger-alertes.jpg
   date-created: '2021-10-31'
   date-modified: '2023-10-24'
-  categories: 
+  categories:
     - surveillance
     - niger
 - id: niger-surv
@@ -185,7 +185,7 @@
   image: assets/img/niger-surv.png
   date-created: '2021-01-10'
   date-modified: '2024-01-01'
-  categories: 
+  categories:
     - surveillance
     - niger
 - title: IAVI X100 LF
@@ -202,7 +202,7 @@
   categories:
     - study
     - lassa
-- title: ENABLE Reporting Dahsboard
+- title: ENABLE Reporting Dashboard
   description: Project reporting dashboard monitoring enrolment, follow-up and lab
     data in near real-time
   href: https://enable.epicentre-msf.org/app/lasv-report-dashboard
@@ -258,7 +258,7 @@
     - lassa
     - tool
 - title: COVID-19 Epi Dashboard
-  description: Dashboard to monitor the global spread of the COVID-19 pandemic 
+  description: Dashboard to monitor the global spread of the COVID-19 pandemic
   href: https://reports.msf.net/public/covid19/
   repo: https://github.com/epicentre-msf/covid19
   access: public
