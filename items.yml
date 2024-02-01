@@ -30,19 +30,20 @@
     - diphtheria
     - nigeria
     - niger
-- title: East Africa Measles
-  description: Intersectional measles linelist dashboard
+- title: East Africa Surveillance
+  description: Intersectional measles and cholera surveillance dashboard
   href: https://apps.epicentre-msf.org/secure/app/east-africa-measles
   repo: https://github.com/epicentre-msf/east-africa-measles-vis
   access: internal
   status: active
   author: Epi DS
   date-created: '2023-07-16'
-  date-modified: '2024-01-01'
+  date-modified: '2024-01-31'
   image: assets/img/epicentre_logo.png
   categories:
     - surveillance
     - measles
+    - cholera
     - sudan
     - south sudan
 - title: GTFCC OCV
@@ -121,16 +122,16 @@
     - drc
 - id: outbreak-tools-geoapp
   title: Outbreak Tools GeoApp
-  description: Select administrative boundaries to generate a geobase for an outbreak
+  description: Download geospatial administrative boundary data and generate a geobase for an outbreak
     tools linelist.
-  href: https://reports.msf.net/secure/app/outbreak-tools-geoapp
+  href: https://apps.epicentre-msf.org/secure/app/outbreak-tools-geoapp
   repo: https://github.com/epicentre-msf/outbreak-tools-geoapp
   access: internal
   status: active
   author: Epi DS
   image: assets/img/outbreak-tools-geoapp.png
   date-created: '2022-05-08'
-  date-modified: '2023-11-27'
+  date-modified: '2024-02-01'
   categories:
     - gis
     - tool
