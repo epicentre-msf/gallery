@@ -1,0 +1,31 @@
+---
+page-layout: full
+toc: false
+listing:
+  id: report-gallery
+  template: epi-grid.ejs
+  contents: items/report_items.yml
+  categories: true
+  page-size: 1000
+  sort: 
+    - "status" 
+    - "date-modified desc"
+  sort-ui: [title, date-created, date-modified]
+  filter-ui: true
+  field-required: [title, href, status, access, author, date-created, date-modified]
+  field-types:
+    date-created: date
+    date-modified: date
+  field-display-names:
+    status: "Status"
+    access: "Access"
+    date-created: "Published"
+    date-modified: "Updated"
+---
+
+## Reports Gallery
+
+---
+
+::: {#gallery}
+:::

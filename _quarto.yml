@@ -6,14 +6,20 @@ website:
   search: false
   navbar:
     left:
-      - href: index.qmd
-        text: Gallery
+      - href: about_index.qmd
+        text: About
+      - href: dashboard_index.qmd
+        text: Dashboard Gallery
+      - href: report_index.qmd
+        text: Reports
+      - href: pkg_index.qmd
+        text: Packages
 
 execute:
   freeze: auto
 
 format:
-  html: 
+  html:
     theme: cosmo
     css: styles.css
     toc: true

@@ -2,9 +2,9 @@
 page-layout: full
 toc: false
 listing:
-  id: gallery
+  id: dashboard-gallery
   template: epi-grid.ejs
-  contents: items.yml
+  contents: items/dashboard_items.yml
   categories: true
   page-size: 1000
   sort: 
@@ -24,8 +24,6 @@ listing:
 ---
 
 ## Data Visualisation Gallery
-
-From outbreaks to clinical trials, Epicentre's data science team (Epi DS) leverages its expertise in epidemiology, statistical analysis, programming and data visualisation to drive actionable insight from public health data.
 
 Below is our collection of our interactive dashboards and reports. Use the search bar and categories menu to filter to your areas of interest.
 

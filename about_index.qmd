@@ -1,0 +1,19 @@
+---
+title: "Data Science Team"
+about:
+  template: jolla
+  image: assets/img/logo_epicentre.png
+  image-width: 10em
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/@Epicentre_MSF
+    - icon: github
+      text: Github
+      href: https://github.com/epicentre-msf
+    - icon: website
+      text: Website
+      href: https://epicentre.msf.org/
+---
+
+From outbreaks to clinical trials, Epicentre's data science team (Epi DS) leverages its expertise in epidemiology, statistical analysis, programming and data visualisation to drive actionable insight from public health data.
