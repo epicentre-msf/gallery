@@ -6,14 +6,12 @@ website:
   search: false
   navbar:
     left:
-      - href: about_index.qmd
+      - href: index.qmd
         text: About
-      - href: dashboard_index.qmd
-        text: Dashboard Gallery
-      - href: report_index.qmd
-        text: Reports
-      - href: pkg_index.qmd
-        text: Packages
+      - href: dashboard.qmd
+        text: Dashboard & Reports Gallery
+      - href: pkg.qmd
+        text: R Packages
 
 execute:
   freeze: auto

@@ -435,3 +435,45 @@
     - trial
     - ebola
     - uganda
+- title: ENABLE Interim Analysis
+  description: Report summarising the interim analysis for the Enable Lassa study
+  href: https://enable.epicentre-msf.org/app/lasv-interim-analysis
+  repo: https://github.com/epicentre-msf/enable-final-analysis
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/enable.png
+  date-created: '2022-06-26'
+  date-modified: '2023-11-15'
+  categories:
+    - study
+    - lassa
+- id: covid19-additional-analysis
+  title: MSF COVID-19 Additional Analysis
+  description: Supplementary graphics and tables
+  href: https://reports.msf.net/secure/app/covid19-additional-analysis
+  repo: https://github.com/epicentre-msf/covid19-episitrep-overall
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/covid19-linelist-dashboard.png
+  date-created: '2020-06-07'
+  date-modified: '2022-04-01'
+  categories:
+    - surveillance
+    - covid19
+- id: drc-eb-001-en
+  title: DRC-EB-001 (Tujiokowe) Daily Situation Report (EN)
+  description: Daily data from the J&J vaccine trial in Kivu, DRC
+  href: https://reports.msf.net/secure/app/drc-eb-001-en
+  repo: https://github.com/epicentre-msf/tujiokowe
+  access: internal
+  status: archived
+  author: Epi DS
+  image: assets/img/drc-eb-001.png
+  date-created: '2019-12-01'
+  date-modified: '2019-12-01'
+  categories:
+    - trial
+    - ebola
+    - drc
