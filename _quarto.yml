@@ -21,6 +21,7 @@ execute:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - cosmo
+      - epicentre_qmd_style.scss
     toc: true
