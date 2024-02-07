@@ -1,119 +1,103 @@
-- title: Epivis
-  description: Tools for visualising epidemiological data.
-  href: https://epicentre-msf.github.io/epivis/
-  repo: https://github.com/epicentre-msf/epivis
+- title: Outbreak Tools
+  description: Quickly build a linelist from an excel designer.
+  href: https://github.com/epicentre-msf/outbreak-tools
+  repo: https://github.com/epicentre-msf/outbreak-tools
   status: active
-  updated: daily
   author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
   image: assets/img/logo_epicentre.png
   categories:
-    - data visualisation
-    - ggplot
-- title: Epishiny
+    - data collection
+    - excel
+- title: epishiny
   description: Tools for interactive visualisation of epidemiological data
   href: https://epicentre-msf.github.io/epishiny/
   repo: https://github.com/epicentre-msf/epishiny
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Campbell
   image: assets/img/logo_epicentre.png
   categories:
     - data visualisation
     - shiny
-- title: Hmatch
+    - R
+- title: epivis
+  description: Tools for visualising epidemiological data
+  href: https://epicentre-msf.github.io/epivis/
+  repo: https://github.com/epicentre-msf/epivis
+  status: active
+  author: Epi DS
+  image: assets/img/logo_epicentre.png
+  categories:
+    - data visualisation
+    - ggplot
+    - R
+- title: hmatch
   description: Tools for cleaning and matching hierarchically-structured data
   href: https://epicentre-msf.github.io/hmatch/
   repo: https://github.com/epicentre-msf/hmatch
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - data manipulation
+    - R
 - title: nmatch
   description: Fuzzy matching for proper names
   href: https://epicentre-msf.github.io/nmatch/
   repo: https://github.com/epicentre-msf/nmatch
   status: active
   updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - data manipulation
+    - R
 - title: dbc
   description: Dictionnary based cleaning
   href: https://epicentre-msf.github.io/dbc/
   repo: https://github.com/epicentre-msf/dbc
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - data manipulation
+    - R
 - title: qxl
   description: Write quick, customized .xlsx files
   href: https://epicentre-msf.github.io/qxl/
   repo: https://github.com/epicentre-msf/qxl
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - excel
+    - R
 - title: rpxl
   description: Read password-protected Excel files
   href: https://epicentre-msf.github.io/rpxl/
   repo: https://github.com/epicentre-msf/rpxl
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - excel
+    - R
 - title: redcap
   description: R utilities for interacting with Redcap
   href: https://epicentre-msf.github.io/redcap/
   repo: https://github.com/epicentre-msf/redcap
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - redcap
+    - R
 - title: queryr
   description: Data validation queries with tidy, stackable output
   href: https://epicentre-msf.github.io/queryr/
   repo: https://github.com/epicentre-msf/queryr
   status: active
-  updated: daily
-  author: Epi DS
-  access: internal
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
+  author: P. Barks
   image: assets/img/logo_epicentre.png
   categories:
     - data queries
+    - R

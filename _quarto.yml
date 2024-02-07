@@ -7,11 +7,14 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: About
-      - href: dashboard.qmd
-        text: Dashboard & Reports Gallery
-      - href: pkg.qmd
-        text: R Packages
+        icon: house-fill
+        text: Home
+      - href: gallery.qmd
+        icon: search
+        text: Gallery
+      - href: software.qmd
+        icon: code-slash
+        text: Software
 
 execute:
   freeze: auto
