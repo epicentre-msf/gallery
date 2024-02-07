@@ -23,9 +23,9 @@ listing:
     date-modified: "Updated"
 ---
 
-## EpiDS packages Gallery
+## R packages gallery
 
-A description here
+Here is a list of R packages developped by members of the EpiDS team at Epicentre. 
 
 ---
 
