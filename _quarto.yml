@@ -5,10 +5,8 @@ website:
   title: "Epicentre Data Science"
   search: false
   navbar:
+    background: primary
     left:
-      - href: index.qmd
-        icon: house-fill
-        text: Home
       - href: gallery.qmd
         icon: search
         text: Gallery
@@ -22,6 +20,7 @@ execute:
 format:
   html:
     theme:
-      - cosmo
-      - epicentre_qmd_style.scss
+      - default
+      - styles.scss
+    css: styles.css
     toc: true

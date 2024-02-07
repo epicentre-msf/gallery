@@ -17,7 +17,6 @@ about:
       href: https://epicentre.msf.org/
 ---
 
-From outbreaks to clinical trials, Epicentre's data science team (Epi DS) leverages its expertise in epidemiology, statistical analysis, programming and data visualisation to drive actionable insight from public health data.
+From outbreaks to clinical trials, Epicentre's data science team (Epi DS) leverages its expertise in epidemiology, statistical analysis, GIS, programming and data visualisation to drive actionable insight from public health data.
 
-
-
+Explore our collection of web-apps, tools, interactive dashboards and reports on our [gallery page](/gallery.html), and our open-source software repository on our [software page](/software.html).
