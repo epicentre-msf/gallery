@@ -1,0 +1,67 @@
+```{=html}
+
+<%
+// Number of columns
+const cols = 3;
+
+// Card alignment
+const align = "left";
+
+// Cap Options
+const imgHeight = "100%";
+%>
+
+<div class="list grid quarto-listing-cols-<%=cols%>">
+<% for (const item of items) { %>
+  <div class="g-col-1" <%= metadataAttrs(item) %>>
+    <div class="quarto-grid-item card border-2 rounded-3 h-100 <%-`card-${align}`%>">
+      <!-- title header -->
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+        <a href="<%= item.href %>" target="_blank" class="listing-title link-secondary list-grid-title">
+          <%= item.title %> 
+        </a> 
+      </div>
+      <!-- card image -->
+      <a class="card-img-top" href="<%= item.href %>" target="_blank">
+        <div style="width: 100%; min-height: 150px;" class="d-flex align-items-center">
+          <% if (item.image) { %>
+            <img src="<%= item.image %>" class="thumbnail-image card-img" style="height: auto;"
+              alt="<%= item.title %>">
+          <% } else { %>
+            <img src="assets/img/epicentre_logo.png" class="thumbnail-image card-img" style="height: auto;"
+              alt="<%= item.title %>">
+          <% } %>
+        </div>
+      </a>
+      <!-- card body -->
+      <div class="card-body post-contents">
+        <!-- category links -->
+        <% if(item.categories) { %>
+          <div class="listing-categories">
+            <% for (const cat of item.categories) { %>
+              <div class="listing-category">
+                <a class="link-secondary list-grid-title" href="#category=<%= cat %>">
+                  <%= cat %>
+                </a>
+              </div>
+              <% } %>
+          </div>
+        <% } %>
+        <!-- description -->
+        <% if (item.description) { %>
+          <div class="card-text card-text-small text-muted listing-description"><%= item.description %></div>
+        <% } %>
+      </div>
+      <!-- footer -->
+      <div class="card-footer py-1 px-2 border-bottom border-1 bg-light">
+        <div class="card-attribution card-text-small d-flex" style="padding-top: 0;">
+          <% if ('author') { %><div class="listing-author me-auto"><%= item.author %></div><% } %>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<% } %>
+</div>
+
+```

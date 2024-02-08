@@ -2,7 +2,7 @@
 
 ## Adding an item to the gallery
 
-New items can be added to the [`items.yml`](items.yml) file after which they will automatically appear on the website gallery when it is next generated.
+New items can be added to the [`gallery.yml`](items/gallery.yml) file after which they will automatically appear on the website gallery when it is next generated.
 
 Below is an example of an item entry:
 

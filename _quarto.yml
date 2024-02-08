@@ -7,14 +7,20 @@ website:
   navbar:
     background: light
     left:
-      - href: index.qmd
+      - href: gallery.qmd
+        icon: search
         text: Gallery
+      - href: software.qmd
+        icon: code-slash
+        text: Software
 
 execute:
   freeze: auto
 
 format:
-  html: 
-    theme: cosmo
+  html:
+    theme:
+      - default
+      - styles.scss
     css: styles.css
     toc: true

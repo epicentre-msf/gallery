@@ -1,0 +1,14 @@
+---
+page-layout: full
+toc: false
+listing:
+  id: gallery
+  template: pkg-grid.ejs
+  contents: items/software.yml
+  categories: true
+  page-size: 1000
+  filter-ui: true
+  field-required: [title, href, author]
+  field-display-names:
+    status: "Status"
+---
