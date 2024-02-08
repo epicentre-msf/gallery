@@ -5,6 +5,7 @@ website:
   title: "Epicentre Data Science"
   search: false
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: Gallery
