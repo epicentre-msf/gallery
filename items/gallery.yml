@@ -131,7 +131,7 @@
   author: Epi DS
   image: assets/img/outbreak-tools-geoapp.png
   date-created: '2022-05-08'
-  date-modified: '2024-02-01'
+  date-modified: '2024-02-05'
   categories:
     - gis
     - tool
@@ -185,7 +185,7 @@
   author: Epi DS
   image: assets/img/niger-surv.png
   date-created: '2021-01-10'
-  date-modified: '2024-01-01'
+  date-modified: '2024-02-01'
   categories:
     - surveillance
     - niger
