@@ -52,8 +52,8 @@
     - data manipulation
     - R
 - title: dbc
-  description: Dictionnary based cleaning
-  href: https://epicentre-msf.github.io/dbc/
+  description: Dictionary-based cleaning
+  href: https://github.com/epicentre-msf/dbc
   repo: https://github.com/epicentre-msf/dbc
   status: active
   author: P. Barks
@@ -63,7 +63,7 @@
     - R
 - title: qxl
   description: Write quick, customized .xlsx files
-  href: https://epicentre-msf.github.io/qxl/
+  href: https://github.com/epicentre-msf/qxl
   repo: https://github.com/epicentre-msf/qxl
   status: active
   author: P. Barks
@@ -73,7 +73,7 @@
     - R
 - title: rpxl
   description: Read password-protected Excel files
-  href: https://epicentre-msf.github.io/rpxl/
+  href: https://github.com/epicentre-msf/rpxl
   repo: https://github.com/epicentre-msf/rpxl
   status: active
   author: P. Barks
@@ -93,7 +93,7 @@
     - R
 - title: queryr
   description: Data validation queries with tidy, stackable output
-  href: https://epicentre-msf.github.io/queryr/
+  href: https://github.com/epicentre-msf/queryr
   repo: https://github.com/epicentre-msf/queryr
   status: active
   author: P. Barks
