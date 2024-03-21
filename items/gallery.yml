@@ -30,22 +30,26 @@
     - diphtheria
     - nigeria
     - niger
-- title: East Africa Surveillance
-  description: Intersectional measles and cholera surveillance dashboard
+- title: Intersectional Surveillance
+  description: Intersectional measles, cholera and hepatitus E surveillance dashboard
   href: https://apps.epicentre-msf.org/secure/app/east-africa-measles
   repo: https://github.com/epicentre-msf/east-africa-measles-vis
   access: internal
   status: active
   author: Epi DS
   date-created: '2023-07-16'
-  date-modified: '2024-01-31'
+  date-modified: '2024-03-21'
   image: assets/img/epicentre_logo.png
   categories:
     - surveillance
     - measles
     - cholera
+    - hepatitus e
     - sudan
     - south sudan
+    - chad
+    - drc
+    - afghanistan
 - title: GTFCC OCV
   description: Dashboard tracking Oral Cholera Vaccine requests and shipments
     for the Global Task Force on Cholera Control
@@ -89,6 +93,7 @@
   categories:
     - surveillance
     - cholera
+    - haiti
 - id: rdc-cholera
   title: RDC Choléra
   description: Tableau de bord de la surveillance du choléra en RDC ; comprenant des
