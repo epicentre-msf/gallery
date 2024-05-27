@@ -183,14 +183,14 @@
 - id: niger-surv
   title: Niger Surveillance
   description: Dashboard de la surveillance des maladies au Niger
-  href: https://reports.msf.net/secure/app/niger-surv
+  href: https://apps.epicentre-msf.org/secure/app/niger-surv
   repo: https://github.com/epicentre-msf/niger-surv-dashboard
   access: internal
   status: active
   author: Epi DS
   image: assets/img/niger-surv.png
   date-created: '2021-01-10'
-  date-modified: '2024-02-01'
+  date-modified: '2024-05-27'
   categories:
     - surveillance
     - niger
