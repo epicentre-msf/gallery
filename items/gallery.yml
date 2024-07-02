@@ -1,3 +1,15 @@
+- title: MSF Carbon Travel App
+  description: Identify suitable meeting/event locations in order to minimise the plane CO2 emissions
+  href: https://apps.epicentre-msf.org/public/app/carbon-travel-app
+  repo: https://github.com/epicentre-msf/carbon-travel-app
+  access: public
+  status: active
+  author: Epi DS
+  date-created: '2024-06-01'
+  date-modified: '2024-06-01'
+  image: assets/img/climate-msf-logo.png
+  categories:
+    - tool
 - title: MAGY Study
   description: Study monitoring and quality control dashboard
   href: https://apps.epicentre-msf.org/secure/app/magy
