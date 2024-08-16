@@ -1,3 +1,22 @@
+- title: TB ALGO PED Study
+  description: Diagnostic performance and feasibility of two new treatment decision algorithms for pulmonary tuberculosis in children
+  href: https://apps.epicentre-msf.org/secure/app/tb-algo-ped
+  repo: https://github.com/epicentre-msf/tb-algorit-ped-app
+  access: internal
+  status: active
+  updated: daily
+  author: Epi DS
+  date-created: '2024-08-01'
+  date-modified: '2024-08-01'
+  image: assets/img/Logo_TACTiC.jpg
+  categories:
+    - tb
+    - study
+    - uganda
+    - niger
+    - nigeria
+    - guinea
+    - south sudan
 - title: MSF Carbon Travel App
   description: Identify suitable meeting/event locations in order to minimise the plane CO2 emissions
   href: https://apps.epicentre-msf.org/public/app/carbon-travel-app
