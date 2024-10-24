@@ -1,3 +1,17 @@
+- title: Mpox Dashboard
+  description: Intersectional Mpox linelist dashboard
+  href: https://apps.epicentre-msf.org/secure/app/obt-dashboard
+  repo: https://github.com/epicentre-msf/obt-app
+  access: internal
+  status: active
+  author: Epi DS
+  date-created: '2024-10-01'
+  date-modified: '2024-10-01'
+  image: assets/img/epicentre_logo.png
+  categories:
+    - surveillance
+    - mpox
+    - drc
 - title: TB ALGO PED Study
   description: Diagnostic performance and feasibility of two new treatment decision algorithms for pulmonary tuberculosis in children
   href: https://apps.epicentre-msf.org/secure/app/tb-algo-ped
