@@ -1,3 +1,19 @@
+- title: ENABLE 1.5 Dashboard
+  description: Project reporting and quality control dashboard
+  href: https://enable.epicentre-msf.org/app/enable-1.5-dashboard
+  repo: https://github.com/epicentre-msf/enable-1.5-app
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/enable.png
+  date-created: '2024-11-01'
+  date-modified: '2024-11-01'
+  categories:
+    - study
+    - lassa
+    - nigeria
+    - sierra leone
+    - liberia
 - title: Mpox Dashboard
   description: Intersectional Mpox linelist dashboard
   href: https://apps.epicentre-msf.org/secure/app/obt-dashboard
