@@ -1,3 +1,16 @@
+- title: Epicentre Finance Budget Tool
+  description: Un outil permettant aux chefs de projets de mettre à jour leurs budgets
+  href: https://apps.epicentre-msf.org/secure/app/finance-budget-tool
+  repo: https://github.com/epicentre-msf/finance-budget-tool
+  access: internal
+  status: active
+  author: Epi DS
+  image: assets/img/epicentre_logo.png
+  date-created: '2025-06-11'
+  date-modified: '2025-06-11'
+  categories:
+    - finance
+    - hr
 - title: ENABLE 1.5 Dashboard
   description: Project reporting and quality control dashboard
   href: https://enable.epicentre-msf.org/app/enable-1.5-dashboard
