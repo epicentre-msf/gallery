@@ -10,9 +10,12 @@ website:
       - href: gallery.qmd
         icon: search
         text: Gallery
-      - href: software.qmd
+      - href: https://epicentre-msf.github.io/outbreak-tools/
+        icon: globe
+        text: Outbreak Tools
+      - href: https://epicentre-msf.r-universe.dev/packages
         icon: code-slash
-        text: Software
+        text: R Packages
 
 execute:
   freeze: auto

@@ -72,23 +72,6 @@
   image: assets/img/climate-msf-logo.png
   categories:
     - tool
-- title: MAGY Study
-  description: Study monitoring and quality control dashboard
-  href: https://apps.epicentre-msf.org/secure/app/magy
-  repo: https://github.com/epicentre-msf/magy-app
-  access: internal
-  status: active
-  updated: daily
-  author: Epi DS
-  date-created: '2023-10-01'
-  date-modified: '2023-11-29'
-  image: assets/img/magy.png
-  categories:
-    - hiv
-    - study
-    - uganda
-    - zambia
-    - south africa
 - title: West Africa Diphtheria
   description: Intersectional diphtheria linelist dashboard
   href: https://apps.epicentre-msf.org/secure/app/west-africa-diphtheria
@@ -324,12 +307,29 @@
     - study
     - lassa
     - tool
+- title: MAGY Study
+  description: Study monitoring and quality control dashboard
+  href: https://apps.epicentre-msf.org/secure/app/magy
+  repo: https://github.com/epicentre-msf/magy-app
+  access: internal
+  status: archived
+  updated: daily
+  author: Epi DS
+  date-created: '2023-10-01'
+  date-modified: '2023-11-29'
+  image: assets/img/magy.png
+  categories:
+    - hiv
+    - study
+    - uganda
+    - zambia
+    - south africa
 - title: COVID-19 Epi Dashboard
   description: Dashboard to monitor the global spread of the COVID-19 pandemic
   href: https://reports.msf.net/public/covid19/
   repo: https://github.com/epicentre-msf/covid19
   access: public
-  status: active
+  status: archived
   author: Epi DS
   image: assets/img/covid19.png
   date-created: '2020-03-15'

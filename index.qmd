@@ -19,4 +19,6 @@ about:
 
 From outbreaks to clinical trials, Epicentre's data science team (Epi-DS) leverages its expertise in epidemiology, statistical analysis, GIS, programming and data visualisation to drive actionable insight from public health data.
 
-Explore our collection of web-apps, tools, interactive dashboards and reports on our [gallery page](/gallery.html), and our open-source software repository on our [software page](/software.html).
+- Explore our collection of web-apps, tools, interactive dashboards and reports on our [gallery page](/gallery.html).
+- For more information about our Outbreak Tools for data collection, check out the [project webiste](https://epicentre-msf.github.io/outbreak-tools/).
+- Our open-source R packages can be found on [r-universe](https://epicentre-msf.r-universe.dev/packages).

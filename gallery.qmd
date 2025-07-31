@@ -23,11 +23,15 @@ listing:
     date-modified: "Updated"
 ---
 
-## Data Visualisation Gallery
+## Data App Gallery
 
 Below is our collection of our interactive dashboards, reports and tools. Use the search bar and categories menu to filter to your areas of interest.
 
-Items labelled as [INTERNAL]{.tag .status-internal} will require a login. If you are a member of the MSF network and have an msf.org email address you can [create an account to access our dashboards on our sign-up page](https://reports.msf.net/signup/){target="_blank"}. Note that some dashboards are limited to specific OCs, individual personel or project partners, so not all content will be accessible with your account.
+Items labelled as [INTERNAL]{.tag .status-internal} will require a login. 
+
+If you are a member of the MSF network you can use your MSF Microsoft365 account to log in. Note that some dashboards are limited to specific OCs, individual personel or project partners, so not all content will be accessible with your account.
+
+External users working on an Epicentre/MSF related project requiring access to a dashboard, please speak with an Epicentre/MSF contant on your project and ask them to get in touch with the Epicentre Data Science Team, detailing the relevant dashboard(s) and list of email addresses that require access. 
 
 ---
 
