@@ -1,3 +1,30 @@
+- title: Nigeria Intersectional Surveillance
+  description: Dashboard visualising MSF DHIS2 surveillance data in Nigeria
+  href: https://apps.epicentre-msf.org/secure/app/nigeria-surv
+  repo: https://github.com/epicentre-msf/nga-surveillance-app
+  access: internal
+  status: active
+  author: Epi DS
+  date-created: '2026-01-01'
+  date-modified: '2026-01-01'
+  image: assets/img/nga-flag.png
+  categories:
+    - surveillance
+    - nigeria
+- title: UrgeEpi Dashboard
+  description: Dashboard of the UrgeEpi project, visualising measles surveillance data from the Ex-Katanga provinces in the DRC
+  href: https://apps.epicentre-msf.org/secure/app/urgepi
+  repo: https://github.com/epicentre-msf/urgepi-dashboard
+  access: internal
+  status: active
+  author: Epi DS
+  date-created: '2026-01-01'
+  date-modified: '2026-01-01'
+  image: assets/img/msf_logo_2.png
+  categories:
+    - surveillance
+    - drc
+    - measles
 - title: Epicentre Finance Budget Tool
   description: Un outil permettant aux chefs de projets de mettre à jour leurs budgets
   href: https://apps.epicentre-msf.org/secure/app/finance-budget-tool
@@ -130,7 +157,7 @@
   status: active
   updated: yearly
   author: Epi DS
-  image: assets/img/msf_logo.png
+  image: assets/img/msf_logo_2.png
   date-created: '2023-06-01'
   date-modified: '2023-06-01'
   categories:
