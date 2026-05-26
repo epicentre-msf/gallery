@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://epicentre-msf.github.io/gallery/software.html</loc>
+    <lastmod>2026-05-26T15:36:38.111Z</lastmod>
+  </url>
+  <url>
     <loc>https://epicentre-msf.github.io/gallery/gallery.html</loc>
-    <lastmod>2026-01-20T18:03:05.908Z</lastmod>
+    <lastmod>2026-05-26T15:36:38.110Z</lastmod>
   </url>
   <url>
     <loc>https://epicentre-msf.github.io/gallery/index.html</loc>
-    <lastmod>2026-01-20T18:03:05.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://epicentre-msf.github.io/gallery/software.html</loc>
-    <lastmod>2026-01-20T18:03:05.909Z</lastmod>
+    <lastmod>2026-05-26T15:36:38.110Z</lastmod>
   </url>
 </urlset>
