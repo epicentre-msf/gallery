@@ -1,3 +1,18 @@
+- title: Ebola 2026
+  description: Surveillance dashboard of the bundibugyo ebola virus outbreak in the DRC and Uganda
+  href: https://apps.epicentre-msf.org/secure/app/evd-2026
+  repo: https://github.com/epicentre-msf/evd-2026-app
+  access: internal
+  status: active
+  author: Epi DS
+  date-created: '2026-05-24'
+  date-modified: '2026-05-26'
+  image: assets/img/epicentre_logo.png
+  categories:
+    - surveillance
+    - drc
+    - uganda
+    - ebola
 - title: Nigeria Intersectional Surveillance
   description: Dashboard visualising MSF DHIS2 surveillance data in Nigeria
   href: https://apps.epicentre-msf.org/secure/app/nigeria-surv
