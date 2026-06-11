@@ -16,6 +16,9 @@ website:
       - href: https://epicentre-msf.r-universe.dev/packages
         icon: code-slash
         text: R Packages
+      - href: ebola-2026.qmd
+        icon: file-medical
+        text: Ebola-2026 Reports
 
 execute:
   freeze: auto
